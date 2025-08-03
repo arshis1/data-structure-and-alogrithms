@@ -24,7 +24,7 @@ class Node:
             else:
                 self.right.insert(value)
 
-    def search(self, target):
+    def binary_search(self, target):
         if target == self.value:
             return True 
         elif target <self.value:
